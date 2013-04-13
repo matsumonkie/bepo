@@ -1,0 +1,85 @@
+xkb_keymap {
+	xkb_keycodes  { include "evdev+aliases(azerty)" };
+	xkb_types     { include "complete"	};
+	xkb_compat    { include "complete"	};
+	xkb_symbols   { include "pc"
+
+
+// FIRST LINE
+key <TLDE> { [ asciitilde ] };
+key <AE01> { [ 1, ampersand ] };
+key <AE02> { [ 2, asciitilde ] };
+key <AE03> { [ 3, numbersign ] };
+key <AE04> { [ 4, apostrophe ] };
+key <AE05> { [ 5, bracketleft ] };
+key <AE06> { [ 6, bar ] };
+key <AE07> { [ 7, none ] };
+key <AE08> { [ 8, backslash ] };
+key <AE09> { [ 9, parenleft, bracketleft ] };
+key <AE10> { [ 0, parenright, bracketright, at ] };
+
+
+// SECOND LINE
+key <AD01> { [ b, B, asterisk ] };
+key <AD02> { [ eacute, Eacute, equal ] };
+key <AD03> { [ p, P, semicolon ] };
+key <AD04> { [ o, O,  minus ] };
+key <AD05> { [ comma, plus, exclam, bar ] };
+key <AD06> { [ y, Y ] };
+key <AD07> { [ v, V, percent ] };
+key <AD08> { [ d, D, Home ] };
+key <AD09> { [ l, L, End ] };
+key <AD10> { [ j, J, dollar ] };
+key <AD11> { [ z, Z, asciicircum] };
+key <AD12> { [ percent ] };
+
+
+// THIRD LINE
+key <AC01> { [ a, A, Home ] };
+key <AC02> { [ u, U, Delete ] };
+key <AC03> { [ i, I, BackSpace ] };
+key <AC04> { [ e, E, Return ] };
+key <AC05> { [ period, colon, Tab, ampersand ] };
+key <AC06> { [ c, C, Delete, ccedilla ] };
+key <AC07> { [ t, T, Left ] };
+key <AC08> { [ s, S, Up ] };
+key <AC09> { [ r, R, Down ] };
+key <AC10> { [ n, N, Right ] };
+key <AC12> { [ asciicircum, percent ] };
+
+
+key <CAPS> { [ ISO_Level3_Shift ] };
+key <AC11> { [ ISO_Level3_Shift ] }; 
+
+key <LFSH> { [ Caps_Lock ] };
+
+// ALT KEYS ARE CONTROL KEYS
+key <LALT> { [ Control_L ], actions = [ SetMods(modifiers=Control) ] };
+key <RALT> { [ Control_R ], actions = [ SetMods(modifiers=Control) ] };
+
+// LWIN & MENU ARE ALT KEYS
+key <LWIN> { type[group1] = "FOUR_LEVEL",  [ Alt_L,  Alt_L,  Meta_L, Meta_L ], actions = [ SetMods(modifiers=Mod1), SetMods(modifiers=Mod1), SetMods(modifiers=Mod4), SetMods(modifiers=Mod4) ]       };
+key <MENU> { type[group1] = "FOUR_LEVEL",  [ Alt_R,  Alt_R,  Meta_R, Meta_R ], actions = [ SetMods(modifiers=Mod1), SetMods(modifiers=Mod1), SetMods(modifiers=Mod4), SetMods(modifiers=Mod4) ]       };
+
+// SHIFT CLOSER TO MY PINKIES 
+key <LSGT> { [ Shift_L, none, none ] };
+key <AB10> { [ Shift_R, none, none ] };
+
+key <AB01> { [ x, X, less, at ] };
+key <AB02> { [ egrave, agrave, greater ] };
+key <AB03> { [ w, W, exclam ] };
+key <AB04> { [ f, F, question, none ] }; 
+key <AB05> { [ k, K, bar] };
+key <AB06> { [ m, M, backslash ] };
+key <AB07> { [ q, Q, slash, none ] };
+key <AB08> { [ g, G, braceleft, none ] };
+key <AB09> { [ h, H, braceright, none ] };
+key <AB11> { [ none ] };
+
+key <SPCE> { [ space, quotedbl, apostrophe, underscore ] };
+
+};
+
+	// ONLY DESCRIBING PHYSICAL KEYBOARD LAYOUT
+	xkb_geometry  { include "pc(pc105)"	};
+};
