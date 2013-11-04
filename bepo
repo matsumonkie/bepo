@@ -64,8 +64,6 @@ key <MENU> { type[group1] = "FOUR_LEVEL",  [ Alt_R,  Alt_R,  Meta_R, Meta_R ], a
 
 // SHIFT CLOSER TO MY PINKIES 
 key <LSGT> { [ Shift_L, none, none ] };
-key <AB10> { [ Shift_R, none, none ] };
-
 key <AB01> { [ x, X, less, at ] };
 key <AB02> { [ egrave, agrave, greater ] };
 key <AB03> { [ w, W, exclam ] };
@@ -75,7 +73,7 @@ key <AB07> { [ m, M, backslash ] };
 key <AB08> { [ q, Q, slash, none ] };
 key <AB09> { [ g, G, braceleft, none ] };
 key <AB10> { [ h, H, braceright, none ] };
-key <AB11> { [ none ] };
+//key <AB11> { [ none ] };
 
 key <SPCE> { [ space, quotedbl, apostrophe, underscore ] };
 
