@@ -4,8 +4,24 @@ xkb_keymap {
 	xkb_compat    { include "complete"	};
 	xkb_symbols   { include "pc"
 
+name[Group1]= "French (Bepo for developer)";
 
-// FIRST LINE
+key <CAPS> { type[group1] = "ONE_LEVEL",  [ ISO_Level3_Shift   ] };
+key <AC12> { type[group1] = "ONE_LEVEL",  [ ISO_Level3_Shift   ] }; 
+key <LWIN> { type[group1] = "ONE_LEVEL",  [ Alt_L              ] };
+key <MENU> { type[group1] = "ONE_LEVEL",  [ Alt_R              ] };
+key <LSGT> { type[group1] = "ONE_LEVEL",  [ Shift_L            ] };
+key <LFSH> { type[group1] = "ONE_LEVEL",  [ Caps_Lock          ] };
+key <LALT> { type[group1] = "ONE_LEVEL",  [ Control_L          ] , actions = [ SetMods(modifiers=Control) ] };
+key <RALT> { type[group1] = "ONE_LEVEL",  [ Control_R          ] , actions = [ SetMods(modifiers=Control) ] };
+key <SPCE> { type[group1] = "FOUR_LEVEL", [ space, quotedbl, apostrophe, underscore        ] };
+
+modifier_map Shift { Shift_L, Shift_R }; 
+modifier_map Control { Control_L, Control_R };
+modifier_map Mod5 { ISO_Level3_Shift }; // Alt Gr
+modifier_map Mod3 { ISO_Level5_Shift }; // Level5
+
+// NUMBER LINE
 key <TLDE> { [ asciitilde ] };
 key <AE01> { [ 1, ampersand ] };
 key <AE02> { [ 2, asciitilde ] };
@@ -20,7 +36,7 @@ key <AE10> { [ 0, parenleft, bracketleft ] };
 key <AE11> { [ 0, parenright, bracketright, at ] };
 
 
-// SECOND LINE
+// FIRST LINE
 key <AD01> { [ b, B, asterisk ] };
 key <AD02> { [ eacute, Eacute, equal ] };
 key <AD03> { [ p, P, semicolon ] };
@@ -35,7 +51,7 @@ key <AD12> { [ z, Z, asciicircum] };
 key <AD13> { [ percent ] };
 
 
-// THIRD LINE
+// SECOND LINE
 key <AC01> { [ a, A, Home ] };
 key <AC02> { [ u, U, Delete ] };
 key <AC03> { [ i, I, BackSpace ] };
@@ -46,36 +62,18 @@ key <AC08> { [ t, T, Left ] };
 key <AC09> { [ s, S, Up ] };
 key <AC10> { [ r, R, Down ] };
 key <AC11> { [ n, N, Right ] };
-//key <AC12> { [ asciicircum, percent ] };
 
 
-key <CAPS> { [ ISO_Level3_Shift ] };
-key <AC12> { [ ISO_Level3_Shift ] }; 
-
-key <LFSH> { [ Caps_Lock ] };
-
-// ALT KEYS ARE CONTROL KEYS
-key <LALT> { [ Control_L ], actions = [ SetMods(modifiers=Control) ] };
-key <RALT> { [ Control_R ], actions = [ SetMods(modifiers=Control) ] };
-
-// LWIN & MENU ARE ALT KEYS
-key <LWIN> { type[group1] = "FOUR_LEVEL",  [ Alt_L,  Alt_L,  Meta_L, Meta_L ], actions = [ SetMods(modifiers=Mod1), SetMods(modifiers=Mod1), SetMods(modifiers=Mod4), SetMods(modifiers=Mod4) ]       };
-key <MENU> { type[group1] = "FOUR_LEVEL",  [ Alt_R,  Alt_R,  Meta_R, Meta_R ], actions = [ SetMods(modifiers=Mod1), SetMods(modifiers=Mod1), SetMods(modifiers=Mod4), SetMods(modifiers=Mod4) ]       };
-
-// SHIFT CLOSER TO MY PINKIES 
-key <LSGT> { [ Shift_L, none, none ] };
-key <AB01> { [ x, X, less, at ] };
-key <AB02> { [ egrave, agrave, greater ] };
-key <AB03> { [ w, W, exclam ] };
-key <AB04> { [ f, F, question, none ] }; 
-key <AB06> { [ k, K, bar] };
-key <AB07> { [ m, M, backslash ] };
-key <AB08> { [ q, Q, slash, none ] };
-key <AB09> { [ g, G, braceleft, none ] };
-key <AB10> { [ h, H, braceright, none ] };
-//key <AB11> { [ none ] };
-
-key <SPCE> { [ space, quotedbl, apostrophe, underscore ] };
+// FOURTH LINE
+key <AB01> { [ x, X, less, at               ] };
+key <AB02> { [ egrave, agrave, greater      ] };
+key <AB03> { [ w, W, exclam                 ] };
+key <AB04> { [ f, F, question, none         ] }; 
+key <AB06> { [ k, K, bar                    ] };
+key <AB07> { [ m, M, backslash              ] };
+key <AB08> { [ q, Q, slash, none            ] };
+key <AB09> { [ g, G, braceleft, none        ] };
+key <AB10> { [ h, H, braceright, none       ] };
 
 };
 
