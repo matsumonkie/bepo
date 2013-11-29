@@ -61,8 +61,8 @@ key <LALT> { [ Alt_L ] };
 key <HKTG> { [ Alt_R ] };
 key <HENK> { [ Control_R ] };
 key <MUHE> { [ Control_L ] };
-
-key <AB10> { [ Shift_R ] };
+# below is important, dont know why...
+key <LCTL> { [ a ] };
 
 key <SPCE> { [ space, quotedbl, apostrophe, underscore ] };
 
