@@ -58,6 +58,9 @@ key <AB10> { [ h, H, braceright, none       ] };
 key <CAPS> { [ ISO_Level3_Shift ] };
 key <AC12> { [ ISO_Level3_Shift ] }; 
 
+key <RTSH> { [ a ] };
+key <AB11> { [ Shift_R ] };
+
 key <LALT> { [ Alt_L ] };
 key <HKTG> { [ Alt_R ] };
 key <HENK> { [ Control_R ] };
