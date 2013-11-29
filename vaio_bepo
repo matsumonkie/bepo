@@ -35,7 +35,6 @@ key <AE09> { [ 9, backslash ] };
 key <AE10> { [ 0, parenleft, bracketleft ] };
 key <AE11> { [ 0, parenright, bracketright, at ] };
 
-
 // FIRST LINE
 key <AD01> { [ b, B, asterisk ] };
 key <AD02> { [ eacute, Eacute, equal ] };
@@ -50,7 +49,6 @@ key <AD11> { [ j, J, dollar ] };
 key <AD12> { [ z, Z, asciicircum] };
 key <AD13> { [ percent ] };
 
-
 // SECOND LINE
 key <AC01> { [ a, A, Home ] };
 key <AC02> { [ u, U, Delete ] };
@@ -62,7 +60,6 @@ key <AC08> { [ t, T, Left ] };
 key <AC09> { [ s, S, Up ] };
 key <AC10> { [ r, R, Down ] };
 key <AC11> { [ n, N, Right ] };
-
 
 // FOURTH LINE
 key <AB01> { [ x, X, less, at               ] };

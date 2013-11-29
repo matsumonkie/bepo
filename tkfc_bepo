@@ -4,8 +4,8 @@ xkb_keymap {
 	xkb_compat    { include "complete"	};
 	xkb_symbols   { include "pc"
 
+// NUMBER LINE
 key <TLDE> { [ asciitilde ] };
-
 key <AE01> { [ 1, ampersand ] };
 key <AE02> { [ 2, asciitilde ] };
 key <AE03> { [ 3, numbersign ] };
@@ -14,48 +14,49 @@ key <AE05> { [ 5, bracketleft ] };
 key <AE06> { [ 6, bar ] };
 key <AE07> { [ 7, none ] };
 key <AE08> { [ 8, backslash ] };
-key <AE09> { [ 9, none ] };
-key <AE10> { [ 0, none ] };
-key <AE11> { [ agrave, none ] };
-key <AE12> { [ 0, none ] };
+key <AE09> { [ 9, backslash ] };
+key <AE10> { [ 0, parenleft, bracketleft ] };
+key <AE11> { [ 0, parenright, bracketright, at ] };
 
+// FIRST LINE
 key <AD01> { [ b, B, asterisk ] };
 key <AD02> { [ eacute, Eacute, equal ] };
 key <AD03> { [ p, P, semicolon ] };
 key <AD04> { [ o, O,  minus ] };
 key <AD05> { [ comma, plus, exclam, bar ] };
-key <AD06> { [ y, Y ] };
-key <AD07> { [ v, V, percent ] };
-key <AD08> { [ d, D, parenleft, bracketleft ] };
-key <AD09> { [ l, L, parenright, bracketright ] };
-key <AD10> { [ j, J, dollar ] };
-key <AD11> { [ k, K, asciicircum] };
-key <AD12> { [ percent ] };
+key <AD07> { [ y, Y ] };
+key <AD08> { [ v, V, percent ] };
+key <AD09> { [ d, D, Home ] };
+key <AD10> { [ l, L, End ] };
+key <AD11> { [ j, J, dollar ] };
+key <AD12> { [ z, Z, asciicircum] };
+key <AD13> { [ percent ] };
+
+// SECOND LINE
+key <AC01> { [ a, A, Home ] };
+key <AC02> { [ u, U, Delete ] };
+key <AC03> { [ i, I, BackSpace ] };
+key <AC04> { [ e, E, Return ] };
+key <AC05> { [ period, colon, questiondown, ampersand ] };
+key <AC07> { [ c, C, Delete, ccedilla ] };
+key <AC08> { [ t, T, Left ] };
+key <AC09> { [ s, S, Up ] };
+key <AC10> { [ r, R, Down ] };
+key <AC11> { [ n, N, Right ] };
+
+// FOURTH LINE
+key <AB01> { [ x, X, less, at               ] };
+key <AB02> { [ egrave, agrave, greater      ] };
+key <AB03> { [ w, W, exclam                 ] };
+key <AB04> { [ f, F, question, none         ] }; 
+key <AB06> { [ k, K, bar                    ] };
+key <AB07> { [ m, M, backslash              ] };
+key <AB08> { [ q, Q, slash, none            ] };
+key <AB09> { [ g, G, braceleft, none        ] };
+key <AB10> { [ h, H, braceright, none       ] };
 
 key <CAPS> { [ ISO_Level3_Shift ] };
-key <AC11> { [ ISO_Level3_Shift ] }; 
-
-key <AC01> { [ a, A, Home ] };
-key <AC02> { [ u, U, Down, Next ] };
-key <AC03> { [ i, I, Up, Prior ] };
-key <AC04> { [ e, E, Return ] };
-key <AC05> { [ period, colon, Tab, ampersand ] };
-key <AC06> { [ c, C, Delete, ccedilla ] };
-key <AC07> { [ t, T, BackSpace ] };
-key <AC08> { [ s, S, Left ] };
-key <AC09> { [ r, R, Right ] };
-key <AC10> { [ n, N, End ] };
-key <AC12> { [ asciicircum, percent ] };
-
-key <AB01> { [ x, X, at ] };
-key <AB02> { [ egrave, none, less ] };
-key <AB03> { [ w, W, greater ] };
-key <AB04> { [ f, F, question, none ] }; 
-key <AB05> { [ z, Z, none, none] };
-key <AB06> { [ m, M, slash, backslash ] };
-key <AB07> { [ q, Q, braceleft, none ] };
-key <AB08> { [ g, G, braceright, none ] };
-key <AB09> { [ h, H, asciitilde, none ] };
+key <AC12> { [ ISO_Level3_Shift ] }; 
 
 key <LALT> { [ Alt_L ] };
 key <HKTG> { [ Alt_R ] };
