@@ -42,19 +42,19 @@ key <AD03> { [ p, P, semicolon ] };
 key <AD04> { [ o, O,  minus ] };
 key <AD05> { [ comma, plus, exclam, bar ] };
 key <AD07> { [ y, Y ] };
-key <AD08> { [ v, V, percent ] };
-key <AD09> { [ d, D, Home ] };
-key <AD10> { [ l, L, End ] };
-key <AD11> { [ j, J, dollar ] };
+key <AD08> { [ v, V, Home ] };
+key <AD09> { [ d, D, Prior ] };
+key <AD10> { [ l, L, Next ] };
+key <AD11> { [ j, J, End ] };
 key <AD12> { [ z, Z, asciicircum] };
 key <AD13> { [ percent ] };
 
 // SECOND LINE
-key <AC01> { [ a, A, Home ] };
+key <AC01> { [ a, A, percent ] };
 key <AC02> { [ u, U, Delete ] };
 key <AC03> { [ i, I, BackSpace ] };
 key <AC04> { [ e, E, Return ] };
-key <AC05> { [ period, colon, questiondown, ampersand ] };
+key <AC05> { [ period, colon, dollar, ampersand ] };
 key <AC07> { [ c, C, Delete, ccedilla ] };
 key <AC08> { [ t, T, Left ] };
 key <AC09> { [ s, S, Up ] };

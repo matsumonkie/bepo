@@ -40,7 +40,7 @@ key <AC01> { [ a, A, Home ] };
 key <AC02> { [ u, U, Down, Next ] };
 key <AC03> { [ i, I, Up, Prior ] };
 key <AC04> { [ e, E, Return ] };
-key <AC05> { [ period, colon, Tab, ampersand ] };
+key <AC05> { [ period, colon, dollar, ampersand ] };
 
 key <AC06> { [ Return ] };
 
