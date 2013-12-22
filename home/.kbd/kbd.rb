@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 BIN = "xkbcomp -w 0 -R/usr/share/X11/xkb/"
-KEYBOARD_DIR = "~/conf/kbd/"
+KEYBOARD_DIR = "~/.kbd/"
 ARG = "${DISPLAY}"
 
 LAYOUTS = %w[ vaio_bepo tkfc_bepo ]
