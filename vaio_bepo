@@ -42,10 +42,10 @@ key <AD03> { [ p, P, semicolon ] };
 key <AD04> { [ o, O,  minus ] };
 key <AD05> { [ comma, plus, exclam, bar ] };
 key <AD07> { [ y, Y ] };
-key <AD08> { [ v, V, Home ] };
-key <AD09> { [ d, D, Prior ] };
-key <AD10> { [ l, L, Next ] };
-key <AD11> { [ j, J, End ] };
+key <AD08> { [ v, V, Prior ] };
+key <AD09> { [ d, D, Home ] };
+key <AD10> { [ l, L, End ] };
+key <AD11> { [ j, J, Next ] };
 key <AD12> { [ z, Z, asciicircum] };
 key <AD13> { [ percent ] };
 
