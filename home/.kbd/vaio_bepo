@@ -54,7 +54,7 @@ key <AC01> { [ a, A, Escape ] };
 key <AC02> { [ u, U, Delete ] };
 key <AC03> { [ i, I, BackSpace ] };
 key <AC04> { [ e, E, Return ] };
-key <AC05> { [ period, colon, EuroSign, dollar ] };
+key <AC05> { [ period, colon, dollar, EuroSign ] };
 key <AC07> { [ c, C, ccedilla ] };
 key <AC08> { [ t, T, Left ] };
 key <AC09> { [ s, S, Up ] };
