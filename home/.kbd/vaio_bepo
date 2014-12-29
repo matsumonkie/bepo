@@ -7,16 +7,16 @@ xkb_keymap {
 name[Group1]= "French (Bepo for developer)";
 
 key <CAPS> { type[group1] = "ONE_LEVEL",  [ ISO_Level3_Shift   ] };
-key <AC12> { type[group1] = "ONE_LEVEL",  [ ISO_Level3_Shift   ] }; 
+key <AC12> { type[group1] = "ONE_LEVEL",  [ ISO_Level3_Shift   ] };
 key <LWIN> { type[group1] = "ONE_LEVEL",  [ Alt_L              ] };
 key <MENU> { type[group1] = "ONE_LEVEL",  [ Alt_R              ] };
 key <LSGT> { type[group1] = "ONE_LEVEL",  [ Shift_L            ] };
-key <LFSH> { type[group1] = "ONE_LEVEL",  [ Caps_Lock          ] };
+key <LFSH> { type[group1] = "ONE_LEVEL",  [ Shift_L            ] };
 key <LALT> { type[group1] = "ONE_LEVEL",  [ Control_L          ] , actions = [ SetMods(modifiers=Control) ] };
 key <RALT> { type[group1] = "ONE_LEVEL",  [ Control_R          ] , actions = [ SetMods(modifiers=Control) ] };
 key <SPCE> { type[group1] = "FOUR_LEVEL", [ space, quotedbl, apostrophe, underscore        ] };
 
-modifier_map Shift { Shift_L, Shift_R }; 
+modifier_map Shift { Shift_L, Shift_R };
 modifier_map Control { Control_L, Control_R };
 modifier_map Mod5 { ISO_Level3_Shift }; // Alt Gr
 modifier_map Mod3 { ISO_Level5_Shift }; // Level5
@@ -65,7 +65,7 @@ key <AC11> { [ n, N, Right ] };
 key <AB01> { [ x, X, less, at               ] };
 key <AB02> { [ egrave, agrave, greater      ] };
 key <AB03> { [ w, W, exclam                 ] };
-key <AB04> { [ f, F, question, none         ] }; 
+key <AB04> { [ f, F, question, none         ] };
 key <AB06> { [ k, K, bar                    ] };
 key <AB07> { [ m, M, backslash              ] };
 key <AB08> { [ q, Q, slash, none            ] };
