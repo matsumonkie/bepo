@@ -14,6 +14,7 @@ key <LSGT> { type[group1] = "ONE_LEVEL",  [ Shift_L            ] };
 key <LFSH> { type[group1] = "ONE_LEVEL",  [ Shift_L            ] };
 key <LALT> { type[group1] = "ONE_LEVEL",  [ Control_L          ] , actions = [ SetMods(modifiers=Control) ] };
 key <RALT> { type[group1] = "ONE_LEVEL",  [ Control_R          ] , actions = [ SetMods(modifiers=Control) ] };
+key <RCTL> { type[group1] = "ONE_LEVEL",  [ Alt_R              ] };
 key <SPCE> { type[group1] = "FOUR_LEVEL", [ space, quotedbl, apostrophe, underscore        ] };
 
 modifier_map Shift { Shift_L, Shift_R };
