@@ -43,7 +43,7 @@ key <AD03> { [ p, P, semicolon ] };
 key <AD04> { [ o, O,  minus ] };
 key <AD05> { [ comma, plus, percent ] };
 key <AD07> { [ y, Y ] };
-key <AD08> { [ v, V, Prior ] };
+key <AD08> { [ v, V, quoteleft ] };
 key <AD09> { [ d, D, Home ] };
 key <AD10> { [ l, L, End ] };
 key <AD11> { [ j, J, Next ] };
